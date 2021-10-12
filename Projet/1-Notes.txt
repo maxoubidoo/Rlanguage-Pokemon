@@ -1,0 +1,3 @@
+Faire une nouvelle table par type et non pas par pokemon (faire un mean)
+
+Montrer le type secondaire seulon le type principal 
