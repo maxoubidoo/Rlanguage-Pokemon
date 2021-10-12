@@ -37,6 +37,7 @@ myx = table(dataset$myxname)
 names(dataset)
 
 myx
+Wonder_Trade <- read_csv("Wonder Trade.csv")
 
 
 
@@ -52,6 +53,8 @@ p2
 p2 <- p2 + facet_wrap(~TypeOne, ncol=6)
 p2
 
+
+View(Wonder_Trade)
 
 datapokemon$TypeOne <- as.factor(datapokemon$TypeOne)
 

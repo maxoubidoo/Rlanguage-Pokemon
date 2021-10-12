@@ -12,6 +12,24 @@ library(gapminder)
 library(dplyr)
 library(ggplot2)
 library(tidyverse)
+library(readr)
+
+
+Wonder_Trade <- read_csv("Wonder Trade.csv")
+datapokemon <- read_csv("Pokemon.csv")
+
+
+names(datapokemon) <- c("PokedexNumber"  ,"Name" ,
+                        "TypeOne" ,"TypeTwo"  ,
+                        "TotalStats"  ,  "HP" ,  
+                        "Attack" ,  "Defense"  , 
+                        "Sp.Atk"   , "Sp.Def",   
+                        "Speed"  ,    "Generation",
+                        "Legendary" )
+
+datapokemon$TypeOne <- as.factor(datapokemon$TypeOne)
+datapokemon$TypeTwo <- as.factor(datapokemon$TypeOne)
+
 
 
 datapokemon$Generation <- as.factor(datapokemon$Generation)
