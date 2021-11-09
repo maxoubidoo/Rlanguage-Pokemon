@@ -1,6 +1,14 @@
 # Rlanguage-Pokemon
 R project
-# //Rapport d’analyse//
+
+## Sommaire
+1. [Rapport d'analyse](#1-Rapport-d’analyse)
+2. [User Guide](#2.-User-Guide)
+3. [Developer Guide](#2.-Developer-Guide)
+4. [Lien](#2.-Lien)
+
+
+## 1. Rapport d’analyse
 
 Notre projet porte sur les stats des différents Pokémon sur les générations une à sept.
 
@@ -23,11 +31,7 @@ Dans un premier temps nous avons l’histogramme (accessible depuis la case à c
 Enfin la carte des échanges montre qu’il n’y a pas beaucoup de pays échangeant des pokémons, de par l'accès au jeu et/ou à une connexion internet, ce qui était attendu, néanmoins nous pouvons remarquer un gros pôle d'échange : le Japon et les Etats Unis avec environ 50% des échanges réalisées à eux deux.
 
 
-
-
-
-
-# //User Guide//
+## 2. User Guide
 
 Run “requirements” pour installer les packages nécessaires.
 
@@ -48,7 +52,7 @@ Dans le cas où requirements est perdu voici le nom des packages nécessaires, �
 
 
 
-# //Developer Guide//
+## 3. Developer Guide
 
 
 
@@ -60,7 +64,7 @@ Les graphes sont gérés  directement dans la partie “server”, selon les con
 
 Chaque graphique (hors map) est géré par la dataset nommé “dataset”, qui est changé selon les conditions.
 
-# //Lien//
+## 3. Lien
 
 https://www.kaggle.com/abcsds/pokemon
 
